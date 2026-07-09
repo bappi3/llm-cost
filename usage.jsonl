@@ -1,0 +1,5 @@
+{"model": "claude-opus-4-8", "input_tokens": 1200, "output_tokens": 800, "date": "2026-07-08"}
+{"model": "claude-sonnet-5", "input_tokens": 3400, "output_tokens": 1500, "date": "2026-07-08"}
+{"model": "claude-opus-4-8", "input_tokens": 900, "output_tokens": 2200, "date": "2026-07-09"}
+{"model": "claude-haiku-4-5", "input_tokens": 500, "output_tokens": 300, "date": "2026-07-09"}
+{"model": "claude-sonnet-5", "input_tokens": 2100, "output_tokens": 900, "date": "2026-07-09"}
