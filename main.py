@@ -1,15 +1,14 @@
 import json
+from pathlib import Path
 
+USAGE_FILE = Path(__file__).parent / "usage.jsonl"
 
 def main():
-    a = 0
-    with open("usage.jsonl") as f:
+    cor = 0
+    with open(USAGE_FILE) as f:
         for line in f:
-            record = json.loads(line)
-            a = a + 1
-            # print(record["model"], record["input_tokens"])
-    
-    print("Total records:", a)
+            cor = cor + 1    
+    print("Total records:", cor)
 
 
 if __name__ == "__main__":
